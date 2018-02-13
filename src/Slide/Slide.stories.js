@@ -12,5 +12,7 @@ storiesOf('Slide', module)
       Sed sit amet quam facilisis, viverra dui in, sagittis nibh. Mauris maximus erat rhoncus rutrum lacinia.
       Nunc posuere metus sed magna molestie, et tristique lorem elementum."
       buttonText="get tickets"
+      buttonInverted={false}
+      background=
      />
   ))
