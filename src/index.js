@@ -7,9 +7,18 @@
 import Box from 'Box'
 import Button from 'Button'
 import Icon from 'Icon'
+import Header from './Header';
+import PageTitle from './PageTitle';
+import PersonCard from './PersonCard';
+import Slide from './Slide';
 
 export {
   Box,
   Button,
-  Icon
+  Icon,
+  Header,
+  PageTitle,
+  PersonCard,
+  Slide
+
 }
