@@ -14,8 +14,9 @@ export const Logo = styled.img`
 
 export const Navigation = styled.div`
  a {
+
    font-family: lato;
-   margin-right: 5px;
+   padding-left: 30px;
  }
 `
 
