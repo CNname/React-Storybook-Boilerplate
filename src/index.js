@@ -11,6 +11,7 @@ import Header from './Header';
 import PageTitle from './PageTitle';
 import PersonCard from './PersonCard';
 import Slide from './Slide';
+import Typography from './Typography';
 
 export {
   Box,
@@ -19,6 +20,6 @@ export {
   Header,
   PageTitle,
   PersonCard,
-  Slide
-
+  Slide,
+  Typography
 }
