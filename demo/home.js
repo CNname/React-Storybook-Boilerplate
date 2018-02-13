@@ -5,10 +5,15 @@ import {
   Header,
   PageTitle,
   PersonCard,
-  Slide
+  Slide,
+  Button,
+  Hero
 } from '../lib/my-awesome-library'
 
-import backgroundImage from '../assets/dsconf2-wide.jpg'
+import backgroundImage from '../assets/dsconf-wide.jpg'
+
+import image from '../assets/dsconf-logo.png';
+
 
 const Home = () => {
   return (
@@ -17,6 +22,14 @@ const Home = () => {
       >
         <Header />
       </PageTitle>
+
+      <Hero
+      image={image}
+      bgImage={backgroundImage}
+      title={'a design systems conference'}
+      subtitle={'MARCH 14th – 15th, 2018'}
+      cta={<Button text='get tickets'/>}
+    />
 
         <Slide
           title="450 seats reserved. Ticlets on sale now."
