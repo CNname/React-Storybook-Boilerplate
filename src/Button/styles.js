@@ -8,6 +8,7 @@ export const Button = styled.a`
   padding: 0.3em 1em;
   border: 1px solid  ${colors.text.white};
   text-transform: uppercase;
+  font-family: lato;
 `
 
 export const ButtonInverted = styled(Button)`

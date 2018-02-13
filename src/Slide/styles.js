@@ -18,6 +18,7 @@ export const SlideContent = styled.div`
 
 export const SlideTitle = styled.h2`
   font-size: 40px;
+  font-family: futura-pt-bold;
   color: ${(props) => props.inverted ? colors.text.black : colors.text.white};
 `
 
@@ -26,6 +27,7 @@ export const SlideButtonWrapper = styled.div`
 `
 
 export const BodyText = styled.p`
+  font-family: lato;
   color: ${(props) => props.inverted ? colors.text.black : colors.text.white};
   padding-bottom: 1em;
   line-height: 1.7;

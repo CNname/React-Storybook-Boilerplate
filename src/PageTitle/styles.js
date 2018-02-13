@@ -12,6 +12,7 @@ export const Title = styled.div`
   text-transform: uppercase;
   color: ${colors.text.white};
   padding: 20px;
+  font-family: futura-pt-bold;
 `
 
 export const Hr = styled.div`
