@@ -4,8 +4,9 @@ import Button from '../Button'
 import * as s from './styles.js'
 
 const Slide = (props) => {
+  console.log(props);
   return (
-    <s.Slide>
+    <s.Slide background={props.background}>
       <s.SlideContent>
         <s.SlideTitle>{props.title}</s.SlideTitle>
         <s.BodyText>{props.bodyText}</s.BodyText>

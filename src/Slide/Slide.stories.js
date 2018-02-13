@@ -1,5 +1,6 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
+import backgroundImage from '../../assets/dsconf2-wide.jpg'
 
 import Slide from '.'
 
@@ -13,6 +14,6 @@ storiesOf('Slide', module)
       Nunc posuere metus sed magna molestie, et tristique lorem elementum."
       buttonText="get tickets"
       buttonInverted={false}
-      background=
+      background={backgroundImage}
      />
   ))

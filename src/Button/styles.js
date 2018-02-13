@@ -11,5 +11,6 @@ export const Button = styled.a`
 `
 
 export const ButtonInverted = styled(Button)`
-  color: red;
+  color: ${colors.primary.darkblue};
+  border: 1px solid  ${colors.primary.darkblue};
 `

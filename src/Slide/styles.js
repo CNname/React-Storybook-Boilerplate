@@ -6,7 +6,8 @@ export const Slide = styled.div`
   width: 100%;
   max-width: 100%;
   padding: 50px 0;
-  background-color: blue;
+  background-color:  ${colors.background.black};
+  background-image: ${(props) => props.background ? `url(${props.background})` : 'none'};
 `
 
 export const SlideContent = styled.div`
@@ -17,6 +18,7 @@ export const SlideContent = styled.div`
 
 export const SlideTitle = styled.h2`
   font-size: 40px;
+  color: ${colors.text.white};
 `
 
 export const SlideButtonWrapper = styled.div`
