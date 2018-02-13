@@ -7,7 +7,8 @@ storiesOf('PersonCard', module)
   .add('index', () => (
     <PersonCard
       name="Matti Tepponen"
+      title="karaoke manager"
       imageUrl="https://randomuser.me/api/portraits/lego/5.jpg"
-      linkedinUrl=""
+      linkedinUrl="http://linkedin.com"
     />
   ))
