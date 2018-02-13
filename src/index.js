@@ -12,6 +12,7 @@ import PageTitle from './PageTitle';
 import PersonCard from './PersonCard';
 import Slide from './Slide';
 import Typography from './Typography';
+import Hero from './Hero';
 
 export {
   Box,
@@ -21,5 +22,6 @@ export {
   PageTitle,
   PersonCard,
   Slide,
-  Typography
+  Typography,
+  Hero
 }
