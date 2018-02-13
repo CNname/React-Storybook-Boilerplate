@@ -21,3 +21,27 @@ export const Title = styled.h3`
   margin: 0;
   margin-top: 20px;
 `
+export const Description = styled.div`
+  font-family: lato, sans-serif;
+  font-size: 16px;
+  color: ${colors.text.black};
+  font-weight: 400;
+  margin: 0;
+`
+export const IconList = styled.ul`
+  color: ${colors.text.grey};
+  font-size: 16px;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+`
+export const IconListItem = styled.li`
+  display: inline-block;
+  margin-right: 15px;
+`
+
+export const IconLink = styled.a`
+  color: ${colors.text.grey};
+  text-decoration: none;
+`
