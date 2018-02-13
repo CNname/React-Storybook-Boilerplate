@@ -10,8 +10,8 @@ const Header = (props) => {
       src={logo}
       />
       <s.Navigation>
-        <s.NavLink>Home</s.NavLink>
-        <s.NavLink>About</s.NavLink>
+        <s.NavLink href="/">Home</s.NavLink>
+        <s.NavLink href="/about">About</s.NavLink>
         <s.NavLink>Ticket info</s.NavLink>
         <s.NavLink>Program</s.NavLink>
         <s.NavLink>Venue & Location</s.NavLink>
