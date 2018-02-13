@@ -21,14 +21,9 @@ const About = () => {
       </PageTitle>
 
        <Slide
-          title="450 seats reserved. Ticlets on sale now."
-          bodyText="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Integer viverra nisi eu lectus finibus, at ullamcorper diam condimentum.
-          Sed sit amet quam facilisis, viverra dui in, sagittis nibh. Mauris maximus erat rhoncus rutrum lacinia.
-          Nunc posuere metus sed magna molestie, et tristique lorem elementum."
-          buttonText="get tickets"
-          buttonInverted={false}
-          background={backgroundImage}
+          title="Not just a conference, more like community."
+          bodyText="DSCONF started as an idea by Mikko Häkkinen, within Elisa. What originally was an idea to gather up and share knowledge, exploded into a full-fledged conference, based on the worldwide interest both from speakers’ perpective but active participation as well. Naturally the need for a team was filled by passionate designers that wanted to see this through. We are proud to present you this event, as our hard work and passion, and we hope you are part of this for 2018 and the years to come."
+          inverted
         />
     </div>
   )
