@@ -5,7 +5,7 @@ import * as s from './styles.js'
 const PersonCard = (props) => {
   return (
     <s.PersonCard>
-      <div>{props.name}</div>
+      <h2>{props.name}</h2>
       <img src={props.imageUrl} />>
     </s.PersonCard>
   )
