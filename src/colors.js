@@ -4,7 +4,7 @@ export default {
   'darkblue': '#021a72',
   },
   'text': {
-    'black': '#333333',
+    'black': '#353740',
     'white': '#fff',
     'grey': '#747d88',
   },
