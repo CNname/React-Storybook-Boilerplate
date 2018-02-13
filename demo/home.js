@@ -13,10 +13,10 @@ import backgroundImage from '../assets/dsconf2-wide.jpg'
 const Home = () => {
   return (
     <div>
-
-      <div style={{background: 'black'}}>
+      <PageTitle
+      >
         <Header />
-       </div>
+      </PageTitle>
 
         <Slide
           title="450 seats reserved. Ticlets on sale now."
