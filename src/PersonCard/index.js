@@ -6,7 +6,8 @@ const PersonCard = (props) => {
   return (
     <s.PersonCard>
       <h2>{props.name}</h2>
-      <img src={props.imageUrl} />>
+      <img class="img" src={props.imageUrl} />
+
     </s.PersonCard>
   )
 }
