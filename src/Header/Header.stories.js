@@ -5,5 +5,7 @@ import Header from '.'
 
 storiesOf('Header', module)
   .add('index', () => (
-    <Header />
+   <div style={{background: 'black'}}>
+      <Header />
+   </div>
   ))
