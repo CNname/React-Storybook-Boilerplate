@@ -3,6 +3,7 @@ import colors from '../colors';
 
 export const Hero = styled.div`
   color: ${colors.text.white};
+  font-family: 'Playfair Display';
   background-color: blue;
   background-image: url(${props => props.bgImage});
   width: 100%;
@@ -21,11 +22,15 @@ export const Image = styled.img`
 `
 
 export const Title = styled.div`
-text-transform: uppercase;
 font-size: 48px;
+font-family: 'Playfair Display';
+font-weight: bold;
+
 `
 
 export const Subtitle = styled.h3`
 margin-bottom: 20px;
 font-size: 20px;
+font-family: 'Playfair Display';
+
 `

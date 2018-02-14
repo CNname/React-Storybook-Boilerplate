@@ -13,6 +13,7 @@ import PersonCard from './PersonCard';
 import Slide from './Slide';
 import Typography from './Typography';
 import Hero from './Hero';
+import Typography from './Typography';
 
 export {
   Box,

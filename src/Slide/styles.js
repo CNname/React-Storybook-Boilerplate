@@ -10,7 +10,7 @@ export const Slide = styled.div`
 `
 
 export const SlideContent = styled.div`
-  max-width: 1080px;
+  max-width: 40em;
   padding: 50px 35px 50px 36px;
   width: 80%;
   margin: 0 auto;
