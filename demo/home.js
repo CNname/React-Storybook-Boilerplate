@@ -10,7 +10,7 @@ import {
   Hero
 } from '../lib/my-awesome-library'
 
-import backgroundImage from '../assets/dsconf-wide.jpg'
+import backgroundImage from '../assets/dsconf.png'
 
 import image from '../assets/dsconf-logo.png';
 
@@ -24,12 +24,12 @@ const Home = () => {
       </PageTitle>
 
       <Hero
-      image={image}
-      bgImage={backgroundImage}
-      title={'a design systems conference'}
-      subtitle={'MARCH 14th – 15th, 2018'}
-      cta={<Button text='get tickets'/>}
-    />
+        image={image}
+        bgImage={backgroundImage}
+        title={'A Design systems conference'}
+        subtitle={'MARCH 14th – 15th, 2018'}
+        cta={<Button text='get tickets'/>}
+      />
 
         <Slide
           title="A two-day conference with one day of keynotes & one day of workshops."
