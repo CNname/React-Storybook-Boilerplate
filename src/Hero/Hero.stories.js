@@ -6,21 +6,9 @@ import { withInfo } from '@storybook/addon-info'
 import Hero from '.'
 import Button from '../Button';
 
-import image from '../../assets/dsconf-logo.png';
-import bgimage from '../../assets/dsconf.png';
+import image from '../../assets/SiteLogo.svg';
+import bgimage from '../../assets/bg.jpg';
 
-/*
-storiesOf('Hero', module)
-  .add('index', () => withInfo()(
-    <Hero
-      image={image}
-      bgImage={bgimage}
-      title={'A Design systems conference'}
-      subtitle={'MARCH 14th – 15th, 2018'}
-      cta={<Button text='get tickets'/>}
-    />
-  ))
-*/
 
 storiesOf('Hero', module)
 .add('default',
@@ -28,8 +16,8 @@ storiesOf('Hero', module)
     return (<Hero
       image={image}
       bgImage={bgimage}
-      title={'A Design systems conference'}
-      subtitle={'MARCH 14th – 15th, 2018'}
-      cta={<Button text='get tickets'/>}
+      title={'Machine Learning Event'}
+      subtitle={'Coming soon'}
+      cta={<Button text='Learn More'/>}
     />)
 }))

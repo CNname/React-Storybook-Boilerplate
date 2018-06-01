@@ -3,9 +3,10 @@ import colors from '../colors';
 
 export const Hero = styled.div`
   color: ${colors.text.white};
-  font-family: 'Playfair Display';
+  font-family: 'futura-pt-bold';
   background-color: blue;
   background-image: url(${props => props.bgImage});
+  background-size: cover;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -23,7 +24,7 @@ export const Image = styled.img`
 
 export const Title = styled.div`
 font-size: 48px;
-font-family: 'Playfair Display';
+font-family: 'futura-pt-bold';
 font-weight: bold;
 
 `
@@ -31,6 +32,6 @@ font-weight: bold;
 export const Subtitle = styled.h3`
 margin-bottom: 20px;
 font-size: 20px;
-font-family: 'Playfair Display';
+font-family: 'Lato';
 
 `

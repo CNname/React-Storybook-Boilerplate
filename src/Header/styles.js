@@ -7,6 +7,7 @@ export const Header = styled.div`
   height: 60px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 `
 export const Logo = styled.img`
   height: 30px;
@@ -14,7 +15,6 @@ export const Logo = styled.img`
 
 export const Navigation = styled.div`
  a {
-
    font-family: lato;
    padding-left: 30px;
  }
@@ -22,6 +22,7 @@ export const Navigation = styled.div`
 
 export const NavLink = styled.a`
   color: ${colors.text.white};
+  text-decoration: none;
   &:hover {
     color: ${colors.primary.green};
   }

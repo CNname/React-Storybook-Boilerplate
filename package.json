@@ -1,8 +1,8 @@
 {
-  "name": "ds-workshop-storybook-boilerplate",
+  "name": "storybook-boilerplate",
   "version": "0.1.0",
   "description": "Styled-components library setup (copied from React Components used at @Coderbox)",
-  "main": "lib/my-awesome-library.js",
+  "main": "lib/component-library.js",
   "scripts": {
     "prepare": "yarn build",
     "build": "webpack --env production",

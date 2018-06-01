@@ -1,6 +1,6 @@
 export default {
   'primary': {
-    'green': '#00d6b2',
+    'green': '#88C0BD',
     'darkblue': '#021a72',
   },
   'text': {
@@ -9,6 +9,7 @@ export default {
     'grey': '#747d88',
   },
   'background': {
+    'darkViolet': '#34426E',
     'black': '#070723',
     'grey': '#494949',
   },

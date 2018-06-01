@@ -5,7 +5,7 @@ import colors from '../colors';
 export const Slide = styled.div`
   width: 100%;
   padding: 50px 0;
-  background-color: ${(props) => props.inverted ? colors.background.white : colors.background.black};
+  background-color: ${(props) => props.inverted ? colors.background.white : colors.background.darkViolet};
   background-image: ${(props) => props.background ? `url(${props.background})` : 'none'};
 `
 

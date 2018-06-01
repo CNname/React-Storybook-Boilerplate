@@ -8,7 +8,7 @@ const env = require('yargs').argv.env
 process.env.BABEL_ENV = env
 process.env.NODE_ENV = env
 
-let libraryName = 'my-awesome-library'
+let libraryName = 'component-library'
 let plugins = [
   new webpack.DefinePlugin({
     'process.env': {
