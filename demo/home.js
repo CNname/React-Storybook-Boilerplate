@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import EmptyPage from "./EmptyPage";
 import file from './components.json'
 
 import {
@@ -20,7 +21,6 @@ const Home = () => {
   return (
     <div>
       {Object.keys(file).length !== 0 && file.map(component => {
-        console.log(component.label);
         switch(component.label) {
           case 'navigation':
             return (
@@ -66,7 +66,7 @@ const Home = () => {
             )
         }
       })} {
-        (!file || Object.keys(file).length === 0) && <p>Its empty</p>
+        (!file || Object.keys(file).length === 0) && <EmptyPage />
       }
     </div>
   )

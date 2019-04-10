@@ -48,8 +48,8 @@ export const Typography = styled.div`
   color: red;
 `
 
-export const FuturaBold = styled.p`
-  font-family: futura-pt-bold;
+export const LatoBold = styled.h1`
+font-family: lato;
 `
 
 export const Lato = styled.p`
